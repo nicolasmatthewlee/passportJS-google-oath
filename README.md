@@ -115,7 +115,7 @@ passport.deserializeUser((user, cb) => {
 
 _when `passport.authenticate("session")` is called, `passport.deserializeUser()` is called to retrieve user data to set `req.user`_
 
-## 2. Implement Google OAuth 2.0 authentication
+## 4. Implement Google OAuth 2.0 authentication
 
 1. employ session authentication
 
