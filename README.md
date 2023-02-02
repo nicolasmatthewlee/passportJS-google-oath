@@ -10,8 +10,6 @@ app.listen(3000, console.log("listening at port 3000"));
 
 _server can now respond to requests at http://127.0.0.1:3000_
 
----
-
 ## 2. Implement session store
 
 1. import modules
@@ -56,8 +54,6 @@ app.use(
 ```
 
 _all middleware after `app.use(session())` can access the session as `req.session`; `session.save()` is automatically called at the end of the HTTP response if the session data is altered_
-
----
 
 ## 3. Configure Google OAuth 2.0 authentication
 
