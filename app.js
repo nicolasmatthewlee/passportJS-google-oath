@@ -102,7 +102,6 @@ app.get(
 
 app.get("/", (req, res, next) => {
   // successful authentication
-  console.log(req.user);
   if (req.user)
     res.json({
       username: req.user.username,
